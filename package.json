@@ -1,0 +1,14 @@
+{
+  "name": "serwersms",
+  "version": "1.0.0",
+  "description": "Klient JS do komunikacji zdalnej z API v2 SerwerSMS.pl",
+  "main": "index.js",
+  "scripts": {
+    "test": "serwersmstest"
+  },
+  "author": {
+    "name": "serwersms"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
