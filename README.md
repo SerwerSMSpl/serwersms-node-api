@@ -1,7 +1,12 @@
 # SerwerSMS - nodeJS
 Klient NodeJS do komunikacji zdalnej z API v2 SerwerSMS.pl
 
-Konsola
+### Instalacja
+npm
+
+https://www.npmjs.com/package/serwersms.pl
+
+github
 ```node
         npm install git://github.com/SerwerSMSpl/serwersms-node-api.git
         npm install request
