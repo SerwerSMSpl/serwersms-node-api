@@ -1,14 +1,18 @@
 {
-  "name": "serwersms",
-  "version": "1.0.0",
-  "description": "Klient JS do komunikacji zdalnej z API v2 SerwerSMS.pl",
+  "name": "serwersms.pl",
+  "version": "1.0.7",
+  "description": "Client JS for remote communication with the API v2 SerwerSMS.pl",
+  "keywords":" serwersms, serwer-sms, serwersms.pl, serwersms-pl, serwersms-api, serwersms-client, sms-api, sms-client, sms",
+  "homepage":"https://github.com/SerwerSMSpl/serwersms-node-api",
   "main": "index.js",
-  "scripts": {
-    "test": "serwersmstest"
-  },
   "author": {
-    "name": "serwersms"
+    "name": "serwersms.pl"
   },
-  "license": "MIT",
-  "readmeFilename": "README.md"
+  "license": {
+      "type":"SerwerSMS.pl",
+      "url":"http://panel.serwersms.pl/html2pdf/www/Licencja_3719.pdf"
+  },
+  "readmeFilename": "README.md",
+  "_id": "serwersms@1.0.7"
+  
 }

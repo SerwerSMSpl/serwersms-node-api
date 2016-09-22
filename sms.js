@@ -4,6 +4,7 @@ var sms = {
     password: null,
     api_url: 'https://api2.serwersms.pl/',
     format:'json',
+    system:'client_nodejs',
     oMessages:null,
     oFiles:null,
     oPremium:null,
@@ -18,7 +19,7 @@ var sms = {
     oStats:null,
     oTemplates:null,
     oError:null,
-
+    data:null,
     oRequest:null,
     
     init:function(){
@@ -42,6 +43,9 @@ var sms = {
   
         params.username = this.username;
         params.password = this.password;
+        
+        params.system = this.system;
+        
         this.oRequest = require('request');
         var req = this.oRequest.post(
             this.api_url+url,
