@@ -15,7 +15,7 @@ Zalecane jest, aby komunikacja przez HTTPS API odbywała się z loginów utworzo
 
 Wysyłka SMS
 ```node
-        var module = require('serwersms');
+        var module = require('serwersms.pl');
 
         try{
 
