@@ -101,7 +101,7 @@ Wysyłka SMS
 Wysyłka spersonalizowanych SMS
 
 ```node
-	var module = require('serwersms');
+	var module = require('serwersms.pl');
 
         try{
 
@@ -133,7 +133,7 @@ Wysyłka spersonalizowanych SMS
 Pobieranie raportów doręczeń
 
 ```node
-	var module = require('serwersms');
+	var module = require('serwersms.pl');
 
         try{
 
@@ -158,7 +158,7 @@ Pobieranie raportów doręczeń
 Pobieranie wiadomości przychodzących
 
 ```node
-	var module = require('serwersms');
+	var module = require('serwersms.pl');
 
         try{
 
